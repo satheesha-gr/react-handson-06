@@ -1,0 +1,66 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 1rem;
+}
+
+.title {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+h1 {
+    text-align: center;
+}
+
+button {
+    cursor: pointer;
+    padding: 10px 50px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 25px;
+    background-color: rgb(48, 180, 236);
+    display: block;
+    margin: 1rem 1rem;
+}
+
+button:hover {
+    border: 2px solid grey;
+    box-shadow: 0 0 2px 2px rgb(241, 248, 249);
+    background-color: rgb(187, 142, 21);
+}
+
+.table-data {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 80%;
+    font-size: 20px;
+    background-color: white;    
+}
+
+.Form-Container {
+    text-align: center;
+    font-size: 30px;
+}
+
+input{
+    font-size: 30px;
+    width: 400px;
+    height: 25px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f2f2f2;
+}
+
+.Submit-Data-Buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.link {
+    text-decoration: none;
+}
